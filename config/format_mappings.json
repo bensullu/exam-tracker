@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "mobese_v1": {
+      "description": "MOBESE 8.Sınıf LGS format - 30 sütun",
+      "detect_pattern": "MOBESE.*Sınıf.*Değerlendirme",
+      "column_count_min": 25,
+      "column_count_max": 30,
+      "columns": {
+        "0": "sira",
+        "1": "numara",
+        "2": "adi",
+        "3": "soyadi",
+        "4": "sinif",
+        "5": "turkce_d",
+        "6": "turkce_c",
+        "7": "turkce_net",
+        "8": "ink_tar_d",
+        "9": "ink_tar_c",
+        "10": "ink_tar_net",
+        "11": "din_kul_d",
+        "12": "din_kul_c",
+        "13": "din_kul_net",
+        "14": "ingilizce_d",
+        "15": "ingilizce_c",
+        "16": "ingilizce_net",
+        "17": "matematik_d",
+        "18": "matematik_c",
+        "19": "matematik_net",
+        "20": "fen_bil_d",
+        "21": "fen_bil_c",
+        "22": "fen_bil_net",
+        "23": "toplam_net",
+        "24": "lgs_puan"
+      },
+      "skip_header_rows": 1,
+      "exam_info_pattern": "Mobese.*Değerlendirme-\\d+",
+      "date_pattern": "\\d{2}\\.\\d{2}\\.\\d{4}"
+    }
+  },
+  "subject_aliases": {
+    "turkce": ["Türkçe", "Turkce", "TRK", "Türk Dili"],
+    "ink_tar": ["İnk. Tar. / Sos", "Sosyal / İnkılap", "İnkılap Tarihi", "İnk.Tar.", "Sosyal", "İnk.Tar/Sos"],
+    "din_kul": ["Din Kültürü", "Din Kült. ve Ahlak Bilgisi", "DKAB", "Din Kül."],
+    "ingilizce": ["İngilizce", "Ingilizce", "İNG", "Yabancı Dil"],
+    "matematik": ["Matematik", "MAT"],
+    "fen_bil": ["Fen Bilimleri", "Fen Bil.", "FEN", "Fen"]
+  }
+}

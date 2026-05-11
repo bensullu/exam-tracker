@@ -1,0 +1,37 @@
+# Database files
+data/*.db
+data/*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+
+# Temp
+*.tmp
+*.pdf
+
+# Plans
+plans/
